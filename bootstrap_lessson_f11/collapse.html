@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/76b565d698.js" crossorigin="anonymous"></script>
+
+    <title>Collapse!</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="display-3 text-center">Collaspse</h1>
+        <a href="#content" class="btn btn-success" data-toggle="collapse">Click Me!</a>
+        <button class="btn btn-info" data-toggle="collapse" data-target="#content">Click Me!</button>
+        <div class="collapse" id="content">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-tittle">Collapse Me!</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam pariatur, totam molestias a nostrum non magnam vero suscipit dicta id.</p>
+                </div>
+            </div>
+        </div>
+
+        <h4>Multiple Collapse </h4>
+        <a href="#thing1" class="btn btn-success" data-toggle="collapse" >Thing 1</a>
+        <a href="#thing2" class="btn btn-info" data-toggle="collapse" >Thing 2</a>
+        <a href=".multi" class="btn btn-warning" data-toggle="collapse" >All Things</a>
+        <div class="row">
+            <div class="col">
+                <div class="collapse show multi" id="thing1">
+                    <div class="card">
+                        <div class="card-body ">
+                            <h5 class="card-tittle">Thing One</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, ipsam?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse show multi" id="thing2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-tittle">Thing One</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, ipsam?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse show multi">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-tittle">All Thing</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, ipsam?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4>Accordin</h4>
+        <div id="accordioncontainer">
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#part1">Link 1</button>
+                </div>
+                <div class="collapse" id="part1" data-parent="#accordioncontainer">
+                    <card-body>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, rem!
+                    </card-body>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#part2">Link 2</button>
+                </div>
+                <div class="collapse" id="part2" data-parent="#accordioncontainer">
+                    <card-body>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, rem!
+                    </card-body>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#part3">Link 3</button>
+                </div>
+                <div class="collapse" id="part3" data-parent="#accordioncontainer">
+                    <card-body>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, rem!
+                    </card-body>
+                </div>
+            </div>
+                
+        </div>
+        
+    </div>
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
